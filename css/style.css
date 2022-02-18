@@ -1,1 +1,450 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.first{
+    background-image: url("/css/cover1.jpg");
+    height:510px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+.sec{
+    background-color: rgb(36,36,36,.75);
+    height: 100%;
+}
+.third{
+    height: 80px;
+}
+.third h3 {
+    float: left;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 30px 30px;
+    color: #f2f2f2;
+    font-family: monospace;
+    cursor: pointer;
+    display: block;
+}
+.third ul {
+    float: right;
+    list-style: none;
+    padding-right: 60px;
+   
+}
+ @keyframes changecolor{
+    from{color:#f2f2f2 ;}
+    to{color: #e96c77}
+ }
+.third ul li {
+    display: inline-block;
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 35px 15px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    /* animation-name: changecolor;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition-duration: 1s; */
+}
+.third ul li:hover {
+    color: #e96c77;
+    transition: all .5s ease
+}
+.third h3:hover{
+    color: #e96c77;
+    transition: all .5s ease
+}
+.fourth{
+    height: 150px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+.fourth h2{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.fourth p{
+    color: #e96c77;
+    margin-bottom: 50px;
+    font-size: 1.7em;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+}
+.fourth button{
+    padding: 10px 30px;
+    background-color: #e13745;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    outline: 0;
+    border: 1px solid red;
+    border-radius: 25px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #e96c77;
+    transform: scale(1.2, 1.2)
+}
+.fifth{
+    text-align: center;
+    background-color: #f5f5f5;
+    height: 680px;
+}
+.fifth h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555;
+}
+.fifth p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #808080;
+}
+.sixth{
+    padding: 50px 10px;
+}
+.sixth .R{
+    border: 1px solid #efefef;
+    width: 400px;
+    float: left;
+    margin: 20px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 0 3px 0 0 rgb(0 0 0 / 10%);
+}
+.R:hover {
+    box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+    transform: scale(1.1, 1.2)
+}
+.sixth .R i {
+    color: #e13745;
+    padding-top: 20px;
+    font-size: 80px;
+}
+.fas{
+    font-weight: 900;
+}
+.sixth h2{
+    color: #555555;
+    padding-top: 25px;
+    letter-spacing: 0.05em;
+}
+.sixth h4{
+    padding: 20px 30px;
+    color: #808080;
+}
+.seventh{
+    background-color: #e96c77;
+    height: 1080px;
+    text-align: center;
+}
+.seventh h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+.seventh p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 5px 150px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #e9f7fc;
+}
+.eighth{
+    height: 800px;
+    width: 100%;
+}
+.eighth .ninth{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+}
+.one , .two{
+    width: 400px;
+    padding: 20px 20px;
+    background-color: #EC828C;
+    height: 300px;
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+}
+.one:hover , .two:hover ,  .three:hover , .four:hover{
+    box-shadow: 0px 0px 10px rgba(18, 8, 81, 0.15);
+    transform: scale(1.1, 1.1)}
+ .ones , .twos{
+    height: 80px;
+    width: 80px;
+    background-color: #5b5c6b;
+    margin-left: 40%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.ninth i{
+    padding-top: 25px;
+    font-size: 30px;
+    color: #fff;
+}
+.eighth h2{
+    color: #fff;
+    padding-top: 25px;
+    letter-spacing: 0.05em;
+    font-family: monospace;
+}
+.eighth h4{
+    padding: 20px 30px;
+    color: #e9f7fc;
+    font-family: cursive;
+}
+.ninth{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+}
 
+.three {
+    width: 400px;
+    padding: 20px 20px;
+    background-color: #EC828C;
+    height: 300px;
+    display: inline-block;
+    margin-right: 40px;
+    text-align: center;
+}
+.four{
+    width: 400px;
+    height: 300px;
+    background-color: #EC828C;
+    display: inline-block;
+    padding: 20px 20px;
+    text-align: center;
+}
+.tinth{
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 112px;
+    margin-right: 150px;
+    margin-bottom: 35px;
+}
+
+.threes{
+    height: 80px;
+    width: 80px;
+    background-color: #5b5c6b;
+    margin-left: 40%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.fours{
+    height: 80px;
+    width: 80px;
+    background-color: #5b5c6b;
+    margin-left: 40%;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+.tinth  i{
+    padding-top: 25px;
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+}
+.seventh .eleventh{
+    text-align: center;
+    height: 600px;  
+}
+.eleventh h3{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555;
+}
+.tw .w{
+    width: 400px;
+    float: left;
+    margin: 20px;
+    height: 270px;
+    background-color: #fff;
+}
+.w h2{
+    color: #555555;
+    padding-top: 25px;
+    letter-spacing: 0.05em;
+}
+.w h4{
+    padding: 20px 30px;
+    color: #808080;
+    font-family: monospace;
+}
+.w button{
+    padding: 10px 30px;
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    color: #555555;
+    margin-top: 20px;
+}
+.tw .w button:hover{
+    background-color: #dddddd;
+    transform:initial;
+    border: none;
+}
+.th{
+    height: 750px;
+    background-color: #efefef;
+    text-align: center;
+}
+.th h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555;
+}
+.th p{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #808080;
+    margin: 5px 150px;
+}
+.t{
+    height: 380px;
+    width: 700px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.text , .mail{
+width: 70%;
+display: block;
+margin: 20px 40px;
+padding: 10px 20px;
+}
+.c{
+    height: 100%;
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+    border-left: 1px solid #00000000;
+}
+.texts{
+    width: 70%;
+    margin: 0px 40px;
+    padding: 10px 20px;
+    height: 100px;
+    float: left;
+}
+.c button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e13745;
+    font-family: monospace;
+    outline: 0;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 40px;
+}
+.c button:hover{
+    background-color: #EC828C;
+    transform:initial;
+}
+.reset{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5b5c6b;
+    font-family: monospace;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    border: 0px;
+    margin-left: 25px;
+}
+.reset:hover{
+    background-color:#808080;
+    border:1px solid #cccccc;
+    
+}
+.fa-map-marker-alt{
+    color: forestgreen;
+}
+.contact i{
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: left;
+}
+.contact p{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.fa-phone-flip{
+    color: #808080;
+}
+.fa-envelope{
+    color: #D44638;
+}
+.fa-facebook{
+    color: #4267B2;
+   
+}
+.fa-twitter-square{
+color:  #1DA1F2;
+}
+.fa-linkedin{
+    color: #2867B2;
+}
+.end{
+    height: 92px;
+    width: 100%;
+    background-color: #262626;
+}
+.end p{
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 17px;
+    font-family:unset;
+    font-weight: 100;
+}
+.end span{
+    color: #0895d1;
+    font-size: 15px;
+}
