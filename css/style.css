@@ -3,7 +3,7 @@
     padding: 0%;
 }
 .first{
-    background-image: url("/css/cover1.jpg");
+    background-image: url("./css/cover1.jpg");
     height:510px;
     position: relative;
     background-repeat: no-repeat;
